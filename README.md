@@ -6,14 +6,14 @@ Windows. For example, the short-cut to copy the current selection is Control-C,
 and to paste the previously copied text the short-cut Control-V can be used.
 As another example, the File menu can be accessed by pressing Meta-F.
 
-## KDI Addons by mattitk
+## KDI Addons by [mattitk^xug](https://github.com/mattitk)
 
 Goal is to create a working and easy to use multi-cursor mode for each panel.
 Problems the team is facing is how to create it not messy but pretty and simple.
 Panel's can use invividual charset which will all be converted to ANSI/ASCII/UTF.
 Images can be also loaded as panels for preview. 
 
-**Sreen Captures from the** Original **version**
+**Screen Captures from the** Original **version**
 
 ![Tilde screenshot](https://os.ghalkes.nl/tilde/tilde-screenshot.png)
 
