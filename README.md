@@ -1,4 +1,4 @@
-# The Tilde Text Editor - with KDI Addons
+# The Tilde-KDI Text Editor
 
 Tilde is a text editor for the console/terminal, which provides an intuitive
 interface for people accustomed to GUI environments such as Gnome, KDE and
@@ -6,12 +6,17 @@ Windows. For example, the short-cut to copy the current selection is Control-C,
 and to paste the previously copied text the short-cut Control-V can be used.
 As another example, the File menu can be accessed by pressing Meta-F.
 
+KDI is a similar project created by Matti Kauppila, but due to extreme
+similarity I decided to make Tilde my dream code editor, using the ideas
+from KDI editor also.
+
 ## KDI Addons by [mattitk^xug](https://github.com/mattitk)
 
 Goal is to create a working and easy to use multi-cursor mode for each panel.
+Highlightning refactor
 Problems the team is facing is how to create it not messy but pretty and simple.
-Panel's can use invividual charset which will all be converted to ANSI/ASCII/UTF.
-Images can be also loaded as panels for preview. 
+Smart panel sizing by only selecting target panel edges and applying up/down or left/right movement
+Killing last window does not kill the editor
 
 **Screen Captures from the** Original **version**
 
@@ -20,6 +25,9 @@ Images can be also loaded as panels for preview.
 For more information, see [the homepage](https://os.ghalkes.nl/tilde)
 
 ## Installing Tilde
+
+There is no way to install Tilde-KDI at this point
+
 
 The easiest way to install Tilde is by using the repositories from the Tilde
 homepage [download section](https://os.ghalkes.nl/tilde/download.html). If there
@@ -43,6 +51,8 @@ or building Tilde:
   tilde-text-editor &lt;at&gt; googlegroups.com.
 * For bug reports or feature suggestions, please file a bug in the github
   [bugtracker](https://github.com/gphalkes/tilde/issues).
+
+for Tilde-KDI contact mattitk@github
 
 ## Developing Tilde
 
